@@ -1,0 +1,35 @@
+.home-page {
+  /* border: 1px red solid; */
+  margin-bottom: 4rem;
+}
+
+.home-page__title {
+    font-family: "Rubik";
+    font-size: 2.25rem;
+    font-weight: 400;
+    color: var(--white);
+    width: 19.25rem;
+    margin-top: 4rem;
+
+}
+
+.home-page__subtitle {
+    margin: .5rem 0 2.5rem 0;
+    font-family: "Inter";
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.home-page__image {
+    background: linear-gradient(180deg, #06090f98 0%, #06090fb6 80.79%),
+    url("/src/images/home-wallpaper2.jpg");
+    max-width: 100%;
+    width: 1216px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: .5rem;
+}
+

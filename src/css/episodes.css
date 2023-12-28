@@ -1,0 +1,105 @@
+.episodes-page {
+  padding: 4rem 0 2.5rem;
+  /* border: 1px solid blue; */
+}
+
+.episodes-page__title {
+  margin-bottom: 2.5rem;
+}
+
+.episodes-page__title {
+  font-family: "Rubik";
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: var(--white);
+  width: 19.25rem;
+  /* margin: 4rem 0; */
+}
+
+.episodes-page__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.episodes-page__card__container {
+  width: 11.75rem;
+  height: 19.5625rem;
+  margin-bottom: 2.5rem;
+  /* border: 1px solid yellow; */
+}
+
+.episodes-page__card {
+  /* background-color: blue; */
+  border-radius: 0.5rem;
+  width: 11.75rem;
+  height: 15.875rem;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card4 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card5 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card6 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card7 {
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_and_Morty_season_7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.episodes-page__card__title {
+  color: var(--white);
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: "Inter";
+  position: absolute;
+  margin: 1rem 2.25rem;
+}
+
+.episodes-page__card__subtitle {
+  font-family: "Rubik";
+  color: var(--grey);
+  font-size: 0.875rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}

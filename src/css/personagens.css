@@ -1,0 +1,16 @@
+.characters-page {
+  padding: 4rem 0 2.5rem;
+  /* border: 1px solid blue; */
+}
+
+.characters-page__card {
+  border-radius: 0.5rem;
+  width: 11.75rem;
+  height: 15.875rem;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(180deg, #06090f00 0%, #06090f 80.79%),
+    url(/src/images/Rick_Sanchez.jpg);
+  background-size: cover;
+  background-position: center;
+}

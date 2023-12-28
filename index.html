@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <title>Rick and Morty</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- TODO: animação sublinhada no hover dos itens do menu, borda da cor --blue no input selecionado -->
+      <nav class="menu-nav">
+        <h1 class="menu-nav__logo">R&M</h1>
+        <ul class="menu-nav__list">
+          <li class="menu-nav__list__item">Início</li>
+          <li class="menu-nav__list__item">Personagens</li>
+          <li class="menu-nav__list__item">Temporadas</li>
+          <input
+            class="menu-nav__list__item__input"
+            type="text"
+            placeholder="Buscar"
+          />
+          <!-- verificar se é correto -->
+        </ul>
+      </nav>
+
+      <header>
+        <nav class="filter-nav">
+          <a href="#" class="filter-nav__link todos">Todos</a>
+          <a href="#" class="filter-nav__link">A</a>
+          <a href="#" class="filter-nav__link">B</a>
+          <a href="#" class="filter-nav__link">C</a>
+          <a href="#" class="filter-nav__link">D</a>
+          <a href="#" class="filter-nav__link">E</a>
+          <a href="#" class="filter-nav__link">F</a>
+          <a href="#" class="filter-nav__link">G</a>
+          <a href="#" class="filter-nav__link">H</a>
+          <a href="#" class="filter-nav__link">I</a>
+          <a href="#" class="filter-nav__link">J</a>
+          <a href="#" class="filter-nav__link">K</a>
+          <a href="#" class="filter-nav__link">L</a>
+          <a href="#" class="filter-nav__link">M</a>
+          <a href="#" class="filter-nav__link">N</a>
+          <a href="#" class="filter-nav__link">O</a>
+          <a href="#" class="filter-nav__link">P</a>
+          <a href="#" class="filter-nav__link">Q</a>
+          <a href="#" class="filter-nav__link">R</a>
+          <a href="#" class="filter-nav__link">S</a>
+          <a href="#" class="filter-nav__link">T</a>
+          <a href="#" class="filter-nav__link">U</a>
+          <a href="#" class="filter-nav__link">V</a>
+          <a href="#" class="filter-nav__link">W</a>
+          <a href="#" class="filter-nav__link">X</a>
+          <a href="#" class="filter-nav__link">Y</a>
+          <a href="#" class="filter-nav__link">Z</a>
+        </nav>
+      </header>
+
+      <section class="home-page">
+        <h2 class="home-page__title">Bem vindo(a)!</h2>
+        <h3 class="home-page__subtitle">
+          Esta é a enciclopédia de Rick & Morty
+        </h3>
+        <div class="home-page__image"></div>
+      </section>
+
+      <!-- TODO: consumir API personagens, Modal para cada personagem com suas informações -->
+      <section class="characters-page">
+        <h2 class="episodes-page__title">Personagens</h2>
+
+        <div class="episodes-page__card__container">
+          <article class="characters-page__card">
+            <h3 class="episodes-page__card__subtitle"></h3>
+          </article>
+          <h2 class="episodes-page__card__title">Rick Sanchez</h2>
+        </div>
+        
+      </section>
+
+      <section class="episodes-page">
+        <h2 class="episodes-page__title">Temporadas</h2>
+
+        <section class="episodes-page__grid">
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card">
+              <h3 class="episodes-page__card__subtitle">11 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">1ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card2">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">2ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card3">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">3ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card4">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">4ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card5">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">5ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card6">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">6ª Temporada</h2>
+          </div>
+
+          <div class="episodes-page__card__container">
+            <article class="episodes-page__card card7">
+              <h3 class="episodes-page__card__subtitle">10 Episódios</h3>
+            </article>
+            <h2 class="episodes-page__card__title">7ª Temporada</h2>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>
+
+  <script src="./src/js/script.js"></script>
+</html>

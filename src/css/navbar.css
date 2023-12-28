@@ -1,0 +1,46 @@
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+}
+
+.menu-nav__logo {
+  font-family: "Rubik";
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.menu-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-nav__list__item {
+  margin-left: 3.125rem;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.menu-nav__list__item__input {
+  margin-left: 4.6875rem;
+  width: 18.25rem;
+  height: 3rem;
+  border-radius: 2.3125rem;
+  background-color: var(--dark-200);
+  border: none;
+  padding: 0.1rem 1.5rem;
+}
+
+.menu-nav__list__item__input::placeholder {
+  color: var(--white);
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+/* responsive */
